@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f9f7fe;
   --branding-color: #272142;
+  --secondary-color: #6c63ff;
   --heading-font-family: "Playfair Display", serif;
   --other-font-family: "Poppins", sans-serif;
 }
@@ -12,30 +13,64 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--branding-color);
+  line-height: 30px;
 }
 .port {
   background-color: var(--primary-color);
   text-align: center;
   padding: 160px 30px;
 }
-p {
+.port p {
   font-size: 36px;
   font-family: var(--other-font-family);
   font-weight: bold;
   color: var(--branding-color);
   margin: 0;
 }
-h2 {
+.port h2 {
   color: var(--branding-color);
   font-family: var(--other-font-family);
   font-size: 24px;
   line-height: 2;
 }
 .btn-branding {
-  background-color: #6c63ff;
+  background-color: var(--secondary-color);
   color: white;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 27px;
+}
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 27px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+.description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 45px;
+  }
 }
