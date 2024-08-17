@@ -50,6 +50,12 @@ h1 {
   line-height: 1.5;
   font-family: var(--other-font-family);
 }
+.about .h1 {
+  font-size: 64px;
+  line-height: 85px;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+}
 h2 {
   font-size: 64px;
   font-weight: bold;
