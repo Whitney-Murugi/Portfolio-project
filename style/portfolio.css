@@ -27,6 +27,11 @@ h1 {
   font-weight: bold;
 }
 .about {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--other-font-family);
+}
+.about {
   padding: 160px 20px;
 }
 .about p {
@@ -34,8 +39,16 @@ h1 {
   font-family: var(--other-font-family);
   color: var(--branding-color);
 }
+.about .p {
+  font-size: 14px;
+}
 .section {
   margin: 30px;
+}
+.about h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--other-font-family);
 }
 h2 {
   font-size: 64px;
