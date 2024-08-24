@@ -103,6 +103,33 @@ p {
 .description {
   padding: 120px 60px;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--secondary-color);
+}
+nav li.active a {
+  color: var(--secondary-color);
+}
 @media (max-width: 900px) {
   .description {
     padding: 0;
